@@ -99,14 +99,14 @@ header {
 
 .hero-top {
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    height: 700px;
+    height: 710px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 100px;
 }
 .hero-text {
-    padding-top: 420px;
+    padding-top: 410px;
 }
 .hero-img {
     height: 40px;
@@ -273,4 +273,9 @@ ul {
 
 .footer-bottom p {
     font-size: 12px;
+}
+
+.small-container {
+    width: 45%;
+    min-width: 360px;
 }

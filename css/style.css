@@ -194,6 +194,9 @@ header {
 
 /*PS Plus*/
 
+.discounts {
+    margin-top: 50px;
+}
 .ps-plus {
     background-color: #bebcbb;  
 }
@@ -204,4 +207,8 @@ header {
 
 .ps-plus-btn {
     background-color: #d9dadc;
+}
+
+.discounts img{
+    margin-bottom: 24px;
 }

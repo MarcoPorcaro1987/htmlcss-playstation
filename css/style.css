@@ -145,6 +145,10 @@ header {
     margin-top:20px;
 }
 
+.ps5-section img {
+    width: 100%;
+}
+
 /*Upcoming*/
 
 /*It Take Two*/
@@ -177,6 +181,7 @@ header {
 
 .ps4 {
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .ps4 img {
@@ -185,4 +190,18 @@ header {
 
 .ps4 h2 {
     font-weight: normal;
+}
+
+/*PS Plus*/
+
+.ps-plus {
+    background-color: #bebcbb;  
+}
+
+.ps-plus-logo {
+    height: 80px;
+}
+
+.ps-plus-btn {
+    background-color: #d9dadc;
 }

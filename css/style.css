@@ -2,7 +2,14 @@
 
 body {
     font-family: Arial, sans-serif;
+    color: white;
 }
+
+.btn {
+    border-radius: 20px;
+    color: white;
+}
+
 
 /*Header*/
 
@@ -23,10 +30,6 @@ body {
     color: black;
 }
 
-.btn {
-    border-radius: 20px;
-    color: white;
-}
 
 .btn-header {
     background-color: #363636;
@@ -42,4 +45,28 @@ body {
 
 .fa-search {
     font-size: 20px;
+}
+
+/*Main*/
+
+/*Hero*/
+
+.hero {
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-text {
+    padding-top: 360px;
+    padding-bottom: 40px;
+}
+.hero-img {
+    height: 40px;
+}
+
+.hero-btn {
+    background-color: #cd3d0f;
+    margin-top: 20px;
 }

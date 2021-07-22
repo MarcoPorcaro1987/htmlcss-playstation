@@ -20,7 +20,7 @@ body {
 }
 h2 {
     margin-bottom: 40px;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -173,3 +173,16 @@ header {
     margin-top: 10px;
 }
 
+/*PS4*/
+
+.ps4 {
+    margin-top: 50px;
+}
+
+.ps4 img {
+    width: 100%;
+}
+
+.ps4 h2 {
+    font-weight: normal;
+}

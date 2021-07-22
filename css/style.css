@@ -209,6 +209,22 @@ header {
     background-color: #d9dadc;
 }
 
+/*Discounts*/
+
 .discounts img{
     margin-bottom: 24px;
+}
+
+/*PS-Now*/
+
+.ps-now {
+    background-color: #161c3b;
+    margin: 50px 0;
+}
+
+.ps-now-logo {
+    height: 80px;
+}
+.ps-now-btn {
+    background-color: white;
 }

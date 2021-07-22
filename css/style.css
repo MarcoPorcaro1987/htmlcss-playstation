@@ -10,10 +10,42 @@ body {
     color: white;
 }
 
+.playcolor {
+    color: #0072ce;
+    font-weight: bold;
+}
 
+.bg-playcolor {
+    background-color: #0072ce;
+}
+h2 {
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.c-black {
+    color: black;
+    
+}
+
+.subtitle {
+    color: #7e7e7e;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.opacity {
+    opacity: 0.6;
+}
 /*Header*/
 
 /*Header-Top*/
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
 
 .header-top {
     background-color: black;
@@ -26,6 +58,9 @@ body {
 
 /*Header-Bottom*/
 
+.header-bottom {
+    background-color: white;
+}
 .navbar-light .navbar-nav .nav-link {
     color: black;
 }
@@ -45,22 +80,25 @@ body {
 
 .fa-search {
     font-size: 20px;
+    color: black;
 }
 
 /*Main*/
 
 /*Hero*/
 
-.hero {
+/*Hero-Top*/
+
+.hero-top {
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
     height: 700px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 100px;
 }
 .hero-text {
-    padding-top: 360px;
-    padding-bottom: 40px;
+    padding-top: 420px;
 }
 .hero-img {
     height: 40px;
@@ -70,3 +108,35 @@ body {
     background-color: #cd3d0f;
     margin-top: 20px;
 }
+
+/*Hero-Bottom*/
+
+.hero-bottom {
+    margin-top: 30px;
+}
+
+.game-cont {
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.b-radius-blue {
+    border: 2px solid #0072ce;
+    padding: 3px;
+}
+.game-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/*PS5-Section*/
+
+.b-bottom {
+    border-bottom: 2px solid #0072ce;
+}
+
+.accessories p {
+    margin-top:20px;
+}
+

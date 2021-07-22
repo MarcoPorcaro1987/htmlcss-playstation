@@ -23,6 +23,7 @@ h2 {
     font-size: 35px;
     font-weight: bold;
 }
+
 .c-black {
     color: black;
     
@@ -37,6 +38,13 @@ h2 {
 .opacity {
     opacity: 0.6;
 }
+
+.buy-btn {
+    background-color: #cd3d0f;
+    margin-top: 20px;
+}
+
+
 /*Header*/
 
 /*Header-Top*/
@@ -104,10 +112,7 @@ header {
     height: 40px;
 }
 
-.hero-btn {
-    background-color: #cd3d0f;
-    margin-top: 20px;
-}
+
 
 /*Hero-Bottom*/
 
@@ -138,5 +143,33 @@ header {
 
 .accessories p {
     margin-top:20px;
+}
+
+/*Upcoming*/
+
+/*It Take Two*/
+
+.upcoming{
+    background-color: #1f1f1f;
+}
+
+.ittakestwo-banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.ittakestwo-logo {
+    height: 250px;
+    padding: 30px 0;
+}
+
+/*Upcoming Games*/
+
+.game-cont p {
+    margin-top: 10px;
 }
 

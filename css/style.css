@@ -1,0 +1,45 @@
+/*Common*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/*Header*/
+
+/*Header-Top*/
+
+.header-top {
+    background-color: black;
+    padding: 15px 0;
+}
+
+.logo {
+    height: 20px;
+}
+
+/*Header-Bottom*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.btn {
+    border-radius: 20px;
+    color: white;
+}
+
+.btn-header {
+    background-color: #363636;
+}
+
+.nav-right li{
+    margin-left: 20px;
+}
+
+.nav-left li {
+    margin-right: 20px;
+}
+
+.fa-search {
+    font-size: 20px;
+}

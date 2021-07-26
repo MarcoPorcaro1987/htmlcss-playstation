@@ -20,6 +20,7 @@ h2 {
 .btn {
     border-radius: 20px;
     color: white;
+    
 }
 
 .playcolor {
@@ -50,7 +51,37 @@ h2 {
     margin-top: 20px;
 }
 
-.btn:hover {}
+/*Hover*/
+
+.game-cont:hover {
+    margin-top: 10px; 
+    transition: 1s;
+    cursor: pointer;
+}
+
+.opacity:hover {
+    opacity: 1;
+}
+
+.btn-header:hover, .bg-playcolor:hover {
+    box-shadow: inset 0px 0px 0px 2px white;
+    color: white;
+}
+
+.buy-btn:hover {
+    box-shadow: inset 0px 0px 0px 2px black;
+    color: white;
+}
+
+.ps-plus-btn:hover {
+    box-shadow: 0px 0px 0px 2px darkgray;
+    color: #0072ce;
+}
+
+.ps-now-btn {
+    box-shadow: inset 0px 0px 0px 2px black;
+    color: black;
+}
 
 /*Header*/
 
@@ -206,7 +237,7 @@ header {
 }
 
 .ps-plus-logo {
-    height: 80px;
+    height: 60px;
 }
 
 .ps-plus-btn {
@@ -227,7 +258,7 @@ header {
 }
 
 .ps-now-logo {
-    height: 80px;
+    height: 70px;
 }
 .ps-now-btn {
     background-color: white;

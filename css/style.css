@@ -89,14 +89,6 @@ h2 {
 
 /*Header*/
 
-.dropdown-toggle::after {
-    content:url(../img/chevron-down-solid.svg);
-    border: none;
-    display: inline-block;
-    width: 10px;
-    vertical-align: middle;
-}
-
 /*Header-Top*/
 
 header {
